@@ -18,7 +18,7 @@ public class ShapeApp {
             
             System.out.println( "area: " + sList.get(i).getArea() );
             System.out.println( "perimeter: " + sList.get(i).getPerimeter() );
-            
+        
             if( sList.get(i) instanceof Resizeable ) {
                 ((Resizeable)sList.get(i)).resize( 0.5 );
                 
